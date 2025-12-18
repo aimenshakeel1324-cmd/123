@@ -1,0 +1,211 @@
+body {
+    height: 100vh;
+    width: 99%;
+    background-color: white;
+}
+
+header {
+    height: 60px;
+    width: 100%
+}
+
+.left-section img {
+    width: 55%;
+    height: 150px;
+}
+
+.rm {
+    display: flex;
+}
+
+.right-section {
+    margin-left: 990px;
+    margin-top: 0px;
+}
+
+.right-section h3 {
+    margin-top: -145px;
+    font-weight: 900;
+    color: rgb(155, 7, 7);
+    font-size: 23px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 9px;
+    font-family: sans-serif;
+}
+
+.right-section h1 {
+    font-size: 55px;
+    line-height: 0px;
+    font-family: sans-serif;
+}
+
+.right-section p {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(49, 44, 44);
+    font-family: sans-serif;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    display: flex;
+    background-color: rgb(128, 13, 13);
+    align-items: center;
+    margin-top: 100px;
+    height: 40px;
+    gap: 0;
+    text-align: right;
+    justify-content: right;
+}
+
+/* Links Style */
+.navbar a {
+    font-size: 16px;
+    color: #F7F4F4;
+    font-weight: 600;
+    margin-left: 10px;
+    text-decoration: none;
+    margin-right: 100px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+/* Responsive Navbar (Mobile Friendly) */
+@media only screen and(max-width: 320px) {
+    .navbar {
+        flex-direction: row-reverse;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+.main-content {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.main-content img {
+    width: 100%;
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+.bts{
+    width: 75%;
+    background-image: url(form_bg.jpg);
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 29PX;
+}
+.container{
+    display: flex;
+}
+.left-main{
+    margin-top: -19px;
+    color: white;
+}
+.right-main {
+    margin-left: 27px;
+    margin-top: -14px;
+}
+.right-main h2{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.right-main span{
+    color: rgb(19, 19, 102);
+    font-size: 35px;
+    font-weight: 800;
+}
+.information{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.information p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.information span{
+    font-weight: 700;
+}
+.left-container{
+    margin-left: 30px;
+    width: 52%;
+} 
+.right-container{
+    margin-right: -39px;
+    margin-top: 25px ;
+}
+.left-container label{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.left-container input{
+    width: 70%;
+    height: 25px;
+}
+.right-container img{
+    height: 80px;
+    transform: rotate(15deg);
+    width: 75%;
+}
+.jungkook{
+    margin-left: 30px;
+}
+.jungkook textarea{
+    width: 90%;
+    height: 85px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.jimin{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.left-v{
+    font-family: serif;
+    font-weight: 500;
+    color: grey;
+    font-size: 20px;
+    font-style: italic;
+}
+.right-suga{
+    margin-top: 3px;
+    margin-left: 15px;
+}
+.right-suga button{
+    height: 50px;
+    width: 170%;
+    background-color: rgb(155, 7, 7);
+    color: white;
+    font-size: 13px;
+}
+.class{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.left-class h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.left-class h2{
+    color: brown;
+    font-family: sans-serif;
+    margin-top: -18px;
+    font-size: 20px;
+}
+.left-class span{
+    color: brown;
+}
+.left-class p{
+    font-family: sans-serif;
+}
